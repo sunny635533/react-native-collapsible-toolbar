@@ -1,0 +1,79 @@
+{
+  "_from": "react-native-collapsible-toolbar",
+  "_id": "react-native-collapsible-toolbar@0.1.2",
+  "_inBundle": false,
+  "_integrity": "sha512-huLYc29/72VJA6J8AJDDUYF3jCIevHHscUKwxmCazsltvzg6uz6Tgf4i0c480sQq2W5iLaLuQioQKU8v1xY1nw==",
+  "_location": "/react-native-collapsible-toolbar",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-collapsible-toolbar",
+    "name": "react-native-collapsible-toolbar",
+    "escapedName": "react-native-collapsible-toolbar",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-collapsible-toolbar/-/react-native-collapsible-toolbar-0.1.2.tgz",
+  "_shasum": "3a17ed208bdd18b1b9e9d6ce2ab325340f26e51f",
+  "_spec": "react-native-collapsible-toolbar",
+  "_where": "/Users/sunny/Documents/svn/CheZhuRN",
+  "author": {
+    "name": "Iftekhar Rifat",
+    "email": "rifat662@gmail.com",
+    "url": "https://github.com/Agontuk"
+  },
+  "bugs": {
+    "url": "https://github.com/Agontuk/react-native-collapsible-toolbar/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "prop-types": "^15.5.10"
+  },
+  "deprecated": false,
+  "description": "Pure JS based collapsible toolbar for react native on Android and iOS",
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.4.1",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.1.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.0.3",
+    "react": ">=15.0.0",
+    "react-native": ">=0.24.0"
+  },
+  "homepage": "https://github.com/Agontuk/react-native-collapsible-toolbar",
+  "keywords": [
+    "react-native",
+    "react",
+    "native",
+    "collapsible",
+    "toolbar",
+    "android",
+    "ios"
+  ],
+  "license": "MIT",
+  "lint-staged": {
+    "*.js": [
+      "eslint",
+      "git add"
+    ]
+  },
+  "main": "src/index.js",
+  "name": "react-native-collapsible-toolbar",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agontuk/react-native-collapsible-toolbar.git"
+  },
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "version": "0.1.2"
+}
