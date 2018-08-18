@@ -30,7 +30,7 @@ export default class CollapsibleToolbar extends Component {
   constructor(props) {
     super(props);
 
-    const APPBAR_HEIGHT = Platform.OS === 'ios' ? 44 : 56;
+    const APPBAR_HEIGHT = Platform.OS === 'ios' ? 44 : 50; // 56
     const ANDROID_STATUS_BAR_HEIGHT = props.translucentStatusBar ? StatusBar.currentHeight : 0;
 
     this.statusBarHeight = Platform.OS === 'ios' ? ifIphoneX(44, 20) : ANDROID_STATUS_BAR_HEIGHT;
