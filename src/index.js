@@ -94,17 +94,18 @@ export default class CollapsibleToolbar extends Component {
           )}
         >
 
-          <Animated.View
-            style={[
-              styles.toolBarOverlay,
-              {
-                backgroundColor: collapsedNavBarBackgroundColor,
-                height: toolBarHeight,
-                opacity: this.toolBarOverlayOpacity
-              }
-            ]}
-          />
-
+         {
+          //   <Animated.View
+          //   style={[
+          //     styles.toolBarOverlay,
+          //     {
+          //       backgroundColor: collapsedNavBarBackgroundColor,
+          //       height: toolBarHeight,
+          //       opacity: this.toolBarOverlayOpacity
+          //     }
+          //   ]}
+          // />
+         }
 
           <Animated.View style={{ opacity: this.toolBarOpacity }}>
             {renderToolBar
